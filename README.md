@@ -58,6 +58,8 @@ It will show an error cause you need API key
 - Provide the required basic details and click "Submit."
 - You will receive your TMDB API key.
 
+![alt text](image-6.png)
+
 Now recreate the Docker image with your api key:
 ```
 docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
@@ -213,6 +215,7 @@ pipeline {
     }
 }
 ```
+![alt text](image-2.png)
 
 Certainly, here are the instructions without step numbers:
 
@@ -656,6 +659,8 @@ Grafana is a powerful tool for creating visualizations and dashboards, and you c
 
 That's it! You've successfully installed and set up Grafana to work with Prometheus for monitoring and visualization.
 
+![alt text](image-5.png)
+
 2. **Configure Prometheus Plugin Integration:**
     - Integrate Jenkins with Prometheus to monitor the CI/CD pipeline.
 
@@ -670,6 +675,9 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 ## Create Kubernetes Cluster with Nodegroups
 
 In this phase, you'll set up a Kubernetes cluster with node groups. This will provide a scalable environment to deploy and manage your applications.
+
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 ## Monitor Kubernetes with Prometheus
 
