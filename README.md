@@ -1,5 +1,7 @@
 ![alt text](image.png)
 
+![alt text](image-7.png)
+
 ## Reference:
 (https://www.youtube.com/watch?v=pbGA-B_SCVk&t=2071s&ab_channel=Mr.CloudBook)
 
@@ -64,8 +66,6 @@ Now recreate the Docker image with your api key:
 ```
 docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 ```
-
-![alt text](image-1.png)
 
 **Phase 2: Security**
 
