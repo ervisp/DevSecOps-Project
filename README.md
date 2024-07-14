@@ -111,7 +111,7 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
     sudo apt update
     sudo apt install fontconfig openjdk-17-jre
     java -version
-    openjdk version "17.0.10+7" January 16th 2024
+    openjdk version "17.0.10" January 16th 2024
     OpenJDK Runtime Environment (build 17.0.10+7-Debian-1deb12u1)
     OpenJDK 64-Bit Server VM (build 17.0.10+7-Debian-1deb12u1, mixed mode, sharing)
     
