@@ -63,6 +63,8 @@ Now recreate the Docker image with your api key:
 docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 ```
 
+![alt text](image-1.png)
+
 **Phase 2: Security**
 
 1. **Install SonarQube and Trivy:**
